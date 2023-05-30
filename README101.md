@@ -6,8 +6,7 @@
 
 My first self made .md file in my new career. 
 
-'''md
 ## Special Thanks To
 Justine and UM. 
-'''
+
 
