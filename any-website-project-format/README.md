@@ -1,2 +1,0 @@
-Web_dev_Homework
-Any website project folder setup
