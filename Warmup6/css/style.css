@@ -2,16 +2,17 @@ h1 {
         color: blueviolet;
       }
 
-.square {
-   width: 25%     
+.rectangle {
+   width: 50%;
+   height: 400px;
 }
 
 #pink {
-   background-color: pink;     
+   background-color: red;     
 }
 
 #green {
-   background-color: green;      
+   background-color: blue;      
 }
 
 #orange {
@@ -21,3 +22,10 @@ h1 {
 #purple {
    background-color: purple;     
 }
+
+body {
+   background-color: black;
+   color: blueviolet;     
+}
+
+<!-- not sure how to get the colors side by side, and tilted -->
