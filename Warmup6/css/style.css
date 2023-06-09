@@ -1,4 +1,4 @@
-h1 {
+h1, p {
         color: blueviolet;
       }
 
@@ -26,6 +26,9 @@ h1 {
 body {
    background-color: black;
    color: blueviolet;     
+}
+p {
+  
 }
 
 <!-- not sure how to get the colors side by side, and tilted. Wondering at red arrow and blue dot -->
