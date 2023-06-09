@@ -3,16 +3,18 @@ h1, p {
       }
 
 .rectangle {
-   width: 50%;
-   height: 400px;
+   width: 25%;
+   height: 710px;
 }
 
-#pink {
-   background-color: red;     
+#blue {
+   background-color: blue;
+   border: 2px solidorange;     
 }
 
-#green {
-   background-color: blue;      
+#white {
+   background-color: white;
+   border: 2px solid dodgerblue;      
 }
 
 #orange {
@@ -31,4 +33,5 @@ p {
   
 }
 
+div.
 <!-- not sure how to get the colors side by side, and tilted. Wondering at red arrow and blue dot -->
