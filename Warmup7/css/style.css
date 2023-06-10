@@ -31,11 +31,12 @@ div {
 }
 
 body {
-  background-color: #E0FFFF; 
+  background-color: #B0E0E6; 
 }
 
 .text {
    padding: 5px;
+   color: turquoise;
 }
 
 p {
