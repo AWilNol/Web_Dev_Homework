@@ -2,16 +2,21 @@
 
 h1 {
   color: #00BFFF;
-  font-family: palatino;
+  font-family: 'Alegreya-Sans-Regular', serif;
   font-size: 32px;
 
   line-height: 1em; 
 }
 
+h1:first-of-type {
+  font-family: 'Ewert', cursive;
+  color: #800080;
+}
+
 h2::first-letter {
   font-family: 'Ewert', cursive;
   font-size: 25px;
-  color: #00BFFF;
+  color: #800080;
 
   line-height: 1em; 
 }
@@ -49,7 +54,8 @@ p {
 p:first-of-type:first-letter {
   font-family: 'Ewert', cursive;
   font-size: 2em;
-  font-weight: 200; 
+  font-weight: 200;
+  color: #00BFFF; 
 }
 
 a {
@@ -70,37 +76,33 @@ p:active {
   color: #E6E6FA;
 }
 
-.parent-element {
-    min-height: 10em;
+.button {
+  background-color: #00BFFF; /* DeepSkyBlue */
+  border: none;
+  color: white;
+  padding: 6px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 2px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
+
 
 .button {
-    font-size: 1.5em;
-    color: white;
-    font-weight: 600;
-    background-color: rgb(28,205,202);
-    border-color: #8f8b8b #383636 #383636
-#8f8b8b;
-    border-width: 9px 15px 15px 9px;
-    border-style: solid;
-    position: relative;
-    margin: auto;
-    top: 1em;
-    padding: 1em;
-    width: 9em;
-    text-align: center; 
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
 }
 
-
-a:hover{
-  font-style: italic;
+.button:hover {
+  background-color: #008CBA;
+  color: white;
 }
 
-a:visited {
-  color: #4B0082;
+.button:visited {
+  color: #E6E6FA;     
 }
 
-a:active {
-  background-color: #5F9EA0;
-  color: #4682B4;
-}
