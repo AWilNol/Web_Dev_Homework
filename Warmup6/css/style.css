@@ -1,37 +1,70 @@
-h1, p {
-        color: blueviolet;
+body {
+   font-family: serif;
+   color: blueviolet;     
+}
+
+* {
+   font-family: serif;
+   background-color: black;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 35px;
       }
 
-.rectangle {
-   width: 25%;
-   height: 710px;
+.canvas {
+    background-color: black;
+    height: 650px;  
+    width: 100%;
+    position: absolute; 
+
 }
+
+.rectangle {
+   background-color: ffffff;
+   height: 650px;
+   width: 28%;
+   position: absolute;
+   left: 0px;   
+}
+
 
 #blue {
    background-color: blue;
-   border: 2px solidorange;     
+   position: absolute;
+   left: 0px;
+   bottom: 0px;    
 }
 
 #white {
    background-color: white;
-   border: 2px solid dodgerblue;      
+   position: absolute;
+   left: 350px;
+   bottom: 0px;         
 }
 
 #orange {
-  background-color: orange;      
+  background-color: orange;
+  position: absolute; 
+  left: 750px;
+  bottom: 0px;
+
 }
 
 #purple {
-   background-color: purple;     
+   background-color: purple; 
+   position: absolute;
+   left: 1050px;
+   bottom: 0px;
+
 }
 
-body {
-   background-color: black;
-   color: blueviolet;     
-}
+
 p {
-  
+   color: white;
 }
 
 div.
 <!-- not sure how to get the colors side by side, and tilted. Wondering at red arrow and blue dot -->
+
