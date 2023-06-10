@@ -10,19 +10,26 @@ h1 {
 
 h1:first-of-type {
   font-family: 'Ewert', cursive;
-  color: #800080;
+  color: #O0BFFF;
 }
 
 h2::first-letter {
-  font-family: 'Ewert', cursive;
+  font-family: 'Algreya-Sans-Regular', serif;
   font-size: 25px;
   color: #800080;
 
   line-height: 1em; 
 }
 
+h2 {
+  color: #800080;
+  font-size: 22px;
+
+  line-height: 1em;      
+}
+
 h3 {
-   color: #00BFFF;
+   color: #800080;
    font-size: 22px;
 
    line-height: 1em;
@@ -68,9 +75,9 @@ a {
     min-height: 10em;
 }
 
-.button {
-    font-size: 1.5em;
-    color: white;
+.button1 {
+    font-size: 18px;
+    color: #8B008B;
     font-weight: 600;
     background-color: rgb(28,205,202);
     border-color: #8f8b8b #383636 #383636 #8f8b8b;
@@ -78,10 +85,27 @@ a {
     border-style: solid;
     position: relative;
     margin: auto;
-    top: 1em;
-    padding: 1em;
-    width: 9em;
+    top: em;
+    padding: 2em;
+    width: em;
+    height: 40px;
     text-align: center;
+}
+
+.button2 {
+   font-size: 18px;
+    color: #8B008B;
+    font-weight: 600;
+    background-color: rgb(28,205,202);
+    border-color: #8f8b8b #383636 #383636 #8f8b8b;
+    border-width: 9px 15px 15px 9px;
+    border-style: solid;
+    position: relative;
+    margin: auto;
+    top: em;
+    padding: 2em;
+    width: em;
+    text-align: center;     
 }
 
 a {
@@ -89,12 +113,24 @@ a {
     color: inherit;
 }
 
-.button:hover {
+.button1:hover {
     color: #383636;
     font-style: italic;
 }
 
-.button:active {
+.button2:hover {
+    color: #383636;
+    font-style: italic;
+}
+
+.button1:active {
+    color: #fff;
+    background-color: rgb(17, 127, 126);
+    border-color: #383636 #8f8b8b #8f8b8b #383636;
+    border-width: 15px 9px 9px 15px;
+}
+
+.button2:active {
     color: #fff;
     background-color: rgb(17, 127, 126);
     border-color: #383636 #8f8b8b #8f8b8b #383636;
@@ -127,6 +163,10 @@ a:active {
   background-color: #5F9EA0;
   color: #4682B4;  
 }
-.button {
+.button1 {
+  border-radius: 50%;      
+}
+
+.button2 {
   border-radius: 50%;      
 }
