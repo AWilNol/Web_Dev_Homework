@@ -58,12 +58,46 @@ a {
   padding: 5px;
 }
 
+p:hover {
+  font-style: bold;
+}
+
+p:visited {
+  color: #C70039;
+}
+
+p:active {
+  color: #E6E6FA;
+}
+
+.parent-element {
+    min-height: 10em;
+}
+
+.button {
+    font-size: 1.5em;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(28,205,202);
+    border-color: #8f8b8b #383636 #383636
+#8f8b8b;
+    border-width: 9px 15px 15px 9px;
+    border-style: solid;
+    position: relative;
+    margin: auto;
+    top: 1em;
+    padding: 1em;
+    width: 9em;
+    text-align: center; 
+}
+
+
 a:hover{
   font-style: italic;
 }
 
 a:visited {
-  color: #87CEEB;
+  color: #4B0082;
 }
 
 a:active {
