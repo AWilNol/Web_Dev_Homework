@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Ewert&display=swap');
+
+h1 {
+  color: turquoise;
+  font-family: palatino;
+  font-size: 32px;
+
+  line-height: 1em; 
+}
+
+h2::first-letter {
+  font-family: 'Ewert', cursive;
+  font-size: 25px;
+  color: turquoise;
+
+  line-height: 1em; 
+}
+
+h3 {
+   color: turquoise;
+   font-size: 22px;
+
+   line-height: 1em;
+}
+
+div {
+  background-color: #AFEEEE;
+  position: relative;
+  left: 455px;
+  width: 500px;
+}
+
+body {
+  background-color: #E0FFFF; 
+}
+
+.text {
+   padding: 5px;
+}
+
+p {
+  color: #800080;
+  font-family: 'Alegreya-Sans-Regular', serif; 
+  font-size: 18px;
+}
+
+p:first-of-type:first-letter {
+  font-family: 'Ewert', cursive;
+  font-size: 2em;
+  font-weight: 200; 
+}
