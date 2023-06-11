@@ -1,0 +1,110 @@
+/* font import here*/
+
+
+body {
+  margin: 0;
+
+  font-family: ;
+  font-size: ;
+}
+
+
+
+
+
+/*Navigation*/
+.navigation {
+   background-color: #FFF;
+   width: 300px;
+   height: 100%;
+
+   position: fixed;
+   top: 0;
+   left: 0;
+
+}
+.navigation a {
+   text-decoration: none;
+   color: #fff;
+}
+
+
+/* Logo Site Title */
+.site-info {
+  
+  margin: 2em auto; /*play with numbers and form*/
+  text-align: center;
+  font-size: 200%;
+}
+
+/* Site Links */
+.site-links {
+  margin:0 1em;
+}
+
+.site-links a {
+  display: block;
+  margin: 1em;
+}
+
+.site-links a:hover {
+  margin-left: 2.5em;
+}
+
+.logo {
+  background-color: ;
+  width: 150px;
+  height: 150px;
+
+  margin: 0 auto 1em;
+
+  border: 5px solid #000;
+  border-radius: 100%;
+
+  line-height: 150px; /* small bits of text; center 
+  line height, one word to center in div, line height to div height*/
+  color: 000;
+  text-transform: uppercase;
+}
+
+.logo:hover {
+   border-color: #999;  
+}
+
+/* Social Links Optional*/
+
+.social-links {
+  background-color: inherit;
+  width: inherit;
+
+  position: inherit;
+  bottom: 0;
+}
+
+.social-links img {
+  background-color: ;
+  width: 25%;
+  height: auto;
+
+  float: left;
+}
+
+.social-links img:hover {
+  background-color: ;
+}
+
+
+
+/*  Main Content */
+.main {
+  background-color: skyblue;
+  overflow: auto;
+  margin-left: 300px;
+  padding: 1em;
+}
+
+.banner {
+   width: 100%;   
+   height: auto;
+
+}
