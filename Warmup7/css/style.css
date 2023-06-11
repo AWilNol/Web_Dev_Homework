@@ -62,6 +62,8 @@ a {
   background-color: #00CED1;
   color: white;
   padding: 5px;
+  text-decoration: none;
+  color: inherit;
 }
 
 .parent-element {
@@ -99,11 +101,6 @@ a {
     padding: 2em;
     width: em;
     text-align: center;     
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
 }
 
 .button1:hover {
@@ -149,27 +146,20 @@ p:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-p:visited {
-  color: #4B0082;
-}
-
-p:active {
-  color: #E6E6FA;
-}
-
-a:hover{
+a:hover {
   font-style: italic;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 } 
 
 a:visited {
-  color: #4B0082;
+  color: #999999;
 }
 
 a:active {
   background-color: #5F9EA0;
   color: #4682B4;  
 }
+
 .button1 {
   border-radius: 50%;      
 }
