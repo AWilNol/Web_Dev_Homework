@@ -17,14 +17,12 @@ h2::first-letter {
   font-family: 'Algreya-Sans-Regular', serif;
   font-size: 25px;
   color: #800080;
-
   line-height: 1em; 
 }
 
 h2 {
   color: #800080;
   font-size: 22px;
-
   line-height: 1em;      
 }
 
@@ -128,14 +126,14 @@ a {
 }
 
 .button1:visited {
-    color: #4B0082;
+    color: #999999;
     background-color: rgb(17, 127, 126);
     border-color: #383636 #8f8b8b #8f8b8b #383636;
     border-width: 15px 9px 9px 15px;
 }
 
 .button2:visited {
-    color: #4B0082;
+    color: #999999;
     background-color: rgb(17, 127, 126);
     border-color: #383636 #8f8b8b #8f8b8b #383636;
     border-width: 15px 9px 9px 15px;
