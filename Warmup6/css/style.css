@@ -37,21 +37,21 @@ h1 {
 #white {
    background-color: white;
    position: absolute;
-   left: 375px;
+   left: 369px;
    bottom: 0px;         
 }
 
 #orange {
   background-color: orange;
   position: absolute; 
-  left: 750px;
+  left: 745px;
   bottom: 0px;
 }
 
 #purple {
    background-color: purple; 
    position: absolute;
-   left: 1050px;
+   left: 1000px;
    bottom: 0px;
 }
 
