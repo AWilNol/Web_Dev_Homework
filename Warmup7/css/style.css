@@ -58,44 +58,10 @@ p:first-of-type:first-letter {
 
 a {
   background-color: #00CED1;
-  color: white;
   padding: 5px;
   text-decoration: none;
-  color: inherit;
+  color: #800080;
 }
-
-
-.button1:hover {
-    color: #383636;
-    font-style: italic;
-}
-
-.button2:hover {
-    color: #383636;
-    font-style: italic;
-}
-
-.button1:active {
-    color: #fff;
-    background-color: rgb(17, 127, 126);}
-
-    
-
-.button2:active {
-    color: #fff;
-    background-color: rgb(17, 127, 126);}
-    
-}
-
-.button1:visited {
-    color: #999999;
-    background-color: rgb(17, 127, 126);}
-    
-
-.button2:visited {
-    color: #999999;
-    background-color: rgb(17, 127, 126);}  
-
 
 p:hover {
   font-style: bold;
@@ -112,6 +78,5 @@ a:visited {
 }
 
 a:active {
-  background-color: #5F9EA0;
-  color: #4682B4;  
+  olor: #4682B4;  
 }
