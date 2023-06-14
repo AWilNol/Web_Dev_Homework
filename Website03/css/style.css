@@ -37,8 +37,15 @@ div:hover {
    font-style: italic;
    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);     
 }
+div:visited {
+   font-style: bold;
+   color: #800000;
+}
 
-p {
+div:active {
+   font-style: bold italic;
+}
 
-
+img {
+   border: 2em;
 }
