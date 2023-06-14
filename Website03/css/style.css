@@ -18,18 +18,27 @@ h2 {
 }
 
 .text {
-   font-family: Encode Sans Condensed, sans-serif; 
+   font-family: Encode Sans Condensed, sans-serif;
 
 }
 
 div {
     background-color: #A9A9A9;
-    width: 133px;
+    width: 140px;
     height: 30px;
+    padding: 5px;
     margin: 80px;
     float: left;
+    font-display: center;
+    font-size: 1em;
 }
 
 div:hover {
    font-style: italic;     
+}
+
+p {
+  width: 250px;
+  height: 250px;
+
 }
