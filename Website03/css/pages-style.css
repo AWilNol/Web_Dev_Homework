@@ -21,11 +21,6 @@ h2 {
   color: black;
 }
 
-.banner {
-  width: 100%;
-  height: auto;
-}
-
 .navigation {
   background-color: #00BFFF;
   width: 265px;
@@ -37,6 +32,42 @@ h2 {
 
 }
 
+.navigation a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.site-info {
+  margin: 2em;
+
+  text-align: center;
+  font-size: 200%;
+}
+
+.logo {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+
+  margin: auto;
+
+  border: 5px solid white;
+  border-radius: 100%;
+
+  line-height: 150px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.logo:hover {
+    border-color: black;    
+}
+
+.site-links {
+
+}
+
 .main {
   background-color: #B0E0E6;
   overflow: auto;
@@ -45,3 +76,7 @@ h2 {
   padding: 1em;
 }
 
+.banner {
+  width: 100%;
+  height: auto;
+}
