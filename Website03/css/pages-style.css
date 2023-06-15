@@ -6,6 +6,7 @@ body {
 }
 
 h1 {
+  background-color: #B0E0E6;
   font-family: Tinos, serif;
   color: black;
   font-size: 2.8em;
@@ -13,6 +14,7 @@ h1 {
 }
 
 h2 {
+  background-color: #B0E0E6;
   font-family: Tinos, serif;
   font-size: 1.8em;
   color: black;
@@ -31,5 +33,7 @@ h2 {
 
 .main {
   background-color: #B0E0E6;
+
   margin-left: 265px;
+  padding: 1em;
 }
