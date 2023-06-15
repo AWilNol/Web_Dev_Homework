@@ -3,7 +3,7 @@
 body {
    margin: 0;
    font-family: Encode Sans Condensed, sans-serif;  
-   font-size: 1.25em;   
+   font-size: 1em;   
 }
 
 h1 {
@@ -35,11 +35,12 @@ h2 {
 .navigation a {
   text-decoration: none;
   color: black;
-
+  font-size: 1.2em;
+  text-align: center;
 }
 
 .site-info {
-  margin: 2em;
+  margin: 1em auto;
 
   text-align: center;
   font-size: 200%;
@@ -61,7 +62,7 @@ h2 {
 }
 
 .logo:hover {
-    border-color: black;    
+    border-color: gray;    
 }
 
 .site-links {
@@ -70,13 +71,13 @@ h2 {
 
 .main {
   background-color: #B0E0E6;
-  overflow: auto;
+  overflow: ;
   margin-top: 0;
   margin-left: 265px;
   padding: 1em;
 }
 
 .banner {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 30%;
 }
