@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@300&family=Tinos&display=swap');
 
 body {
+   margin: 0;
    font-family: Encode Sans Condensed, sans-serif;  
    font-size: 1.25em;   
 }
 
 h1 {
+  margin: 0;
   background-color: #B0E0E6;
   font-family: Tinos, serif;
   color: black;
   font-size: 2.8em;
-  padding: 5px;
 }
 
 h2 {
@@ -18,6 +19,11 @@ h2 {
   font-family: Tinos, serif;
   font-size: 1.8em;
   color: black;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
 }
 
 .navigation {
@@ -33,7 +39,9 @@ h2 {
 
 .main {
   background-color: #B0E0E6;
-
+  overflow: auto;
+  margin-top: 0;
   margin-left: 265px;
   padding: 1em;
 }
+
