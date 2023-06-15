@@ -1,5 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@300&family=Tinos&display=swap');
 
+body {
+   font-family: Encode Sans Condensed, sans-serif;  
+   font-size: 1.25em;   
+}
+
 h1 {
-  
+  font-family: Tinos, serif;
+  color: black;
+  font-size: 2.8em;
+  padding: 5px;
+}
+
+h2 {
+  font-family: Tinos, serif;
+  font-size: 1.8em;
+  color: black;
+}
+
+.navigation {
+  background-color: #00BFFF;
+  width: 265px;
+  height: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}
+
+.main {
+  background-color: #B0E0E6;
+  margin-left: 265px;
 }
