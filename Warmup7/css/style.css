@@ -14,7 +14,7 @@ h1:first-of-type {
 }
 
 h2::first-letter {
-  font-family: 'Algreya-Sans-Regular', serif;
+  font-family: 'Alegreya-Sans', serif;
   font-size: 25px;
   color: #800080;
   line-height: 1em; 
