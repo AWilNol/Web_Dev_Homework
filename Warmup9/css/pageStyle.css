@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@300&family=Tinos&display=swap');
-
+@media (min-width: 360px) {
+   .navigation {position: fixed;}
+}
 .main {
   background-color: #B0E0E6;
-  overflow: ;
+  overflow: auto;
   margin-top: 0;
   margin-left: 265px;
   padding: 1em;}
@@ -108,7 +110,7 @@ body {
   margin: 5px;}
 
 .social-links a:hover {
-  margin-right: 2px;
+  margin-right: .5px;
 }
 
 
