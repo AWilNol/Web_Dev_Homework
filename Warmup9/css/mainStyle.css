@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@300&family=Lora&family=Tinos&display=swap');
+
+body {
+   width: 1280px;
+   height: 620px;}
+
+.container {
+   position: relative;
+   text-alignment: center;
+   margin: 0;}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);}
+
+.bottom-center {
+   position: absolute;
+   text-align: center;
+   top: 50%;
+   left: 38.5%;
+   bottom: 80px;
+   
+   font-family: Lora;
+   font-size: 30px;}
+
+.bottom-left {
+   position: absolute;
+   text-align: center;
+   top: 70%;
+   left: 25.5%;
+   bottom: 49px;
+   
+   font-family: Tinos;
+   font-size: 25px;}
+
+.button {
+   background-color: #FFC300;}
+
+.bottom-right {
+   position: absolute;
+   text-align: center;
+   top: 70%;
+   right: 18%;
+   bottom: 50px;
+   
+   font-family: Tinos;
+   font-size: 25px;}
+
+.top {
+   position: relative;
+   text-align: center;
+   top: 70%;
+   left: 3%;
+   bottom: 97px;
+   right: 50%;
+   
+   font-family: Tinos;
+   font-size: 25px;}
+
+.social-links {
+  background-color: inherit;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  float: right;}
+
+.social-links a {
+  display: block;
+  margin: 5px;}
+
+.social-links a:hover {
+  margin-right: 2px;}
+
+.right {
+   position: relative;
+   text-align: center;
+   top: 66%;
+   left: 42%;
+   bottom: 157px;
+   right: 85%;}
+
+.left {
+   position: relative;
+   text-align: center;
+   top: 68%;
+   left: 42%;
+   bottom: 156px;
+   right: 85%;}
