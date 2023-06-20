@@ -20,7 +20,7 @@ body {
    position: absolute;
    text-align: center;
    top: 50%;
-   left: 38.5%;
+   left: 40%;
    bottom: 80px;
    
    font-family: Lora;
@@ -30,7 +30,7 @@ body {
    position: absolute;
    text-align: center;
    top: 70%;
-   left: 25.5%;
+   left: 19%;
    bottom: 49px;
    
    font-family: Tinos;
@@ -53,8 +53,8 @@ body {
    position: relative;
    text-align: center;
    top: 70%;
-   left: 3%;
-   bottom: 97px;
+   left: .5%;
+   bottom: 103px;
    right: 50%;
    
    font-family: Tinos;
