@@ -58,10 +58,7 @@ body {
 .logo {
   margin: 0 auto .5em;
   border: 5px solid white;
-  border-radius: 100%;
-  line-height: 150px;
-  color: black;
-  text-transform: uppercase;}
+  border-radius: 100%;}
 
 .logo:hover {
   border-color: gray;}
