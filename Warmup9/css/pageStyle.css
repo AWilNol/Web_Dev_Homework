@@ -36,6 +36,10 @@ body {
    font-family: Encode Sans Condensed, sans-serif;  
    font-size: 1em;}
 
+p {
+  margin-right: 3em;
+}
+
 .navigation {
   background-color: #00BFFF;
   width: 265px;
