@@ -28,8 +28,8 @@ h2 {
   color: black;}
 
 .banner {
-  width: auto;
-  height: 20%;}
+  width: 40%;
+  height: auto;}
 
 body {
    margin: 0;
@@ -103,7 +103,7 @@ p {
   margin: 5px;}
 
 .social-links a:hover {
-  margin-right: 2px;
+  margin-left: 2px;
 }
 /* JUSTINE: Social Links disappear now on hover, what can I do? */
 
