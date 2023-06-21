@@ -29,8 +29,8 @@ h2 {
 div {
   background-color: #AFEEEE;
   position: relative;
-  left: 455px;
   width: 500px;
+  margin: auto;
 }
 
 body {
