@@ -3,9 +3,6 @@
 @media (min-width: 360px) {
    .navigation {
        position: fixed;}
-   body {
-       margin: auto;}
-}
 
 .main {
   background-color: #B0E0E6;
@@ -31,12 +28,14 @@ h2 {
   margin: auto;}
 
 body {
-   margin: 0;
+   margin: auto;
    font-family: Encode Sans Condensed, sans-serif;  
    font-size: 1em;}
 
+/* Why is the text not starting at the nav panel? */
+
 p {
-  margin-right: 3em;
+  margin: 265px;
 }
 
 .navigation {
@@ -76,16 +75,15 @@ p {
 .site-links a:hover {
   margin-left: 2em;}
 
+/* How am I rid of one of two galleries? Kicked the social links down. */
+
 .gallery {
-  background-color: gray;
   width: 150px;
-  height: 200px;
+  height: 180px;
   float: left;
   margin: 0 auto;
-  border: 2px solid gray;
-  line-height: 200px;
-  color: gray;
-  text-transform: uppercase;}
+  border: 2px solid white;
+}
 
 .gallery:hover {
   border-color: white;}
