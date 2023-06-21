@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@300&family=Lora&family=Tinos&display=swap');
 
+
+
 body {
    width: 1280px;
-   height: 620px;
-   margin: auto;}
+   height: 620px;}
 
 .container {
    position: relative;
@@ -21,7 +22,8 @@ body {
    text-align: center;
    top: 50%;
    left: 40%;
-   bottom: 80px;   
+   bottom: 80px;
+   
    font-family: Lora;
    font-size: 30px;}
 
@@ -30,7 +32,8 @@ body {
    text-align: center;
    top: 70%;
    left: 19%;
-   bottom: 49px;   
+   bottom: 49px;
+   
    font-family: Tinos;
    font-size: 25px;}
 
@@ -42,7 +45,8 @@ body {
    text-align: center;
    top: 70%;
    right: 18%;
-   bottom: 50px;   
+   bottom: 50px;
+   
    font-family: Tinos;
    font-size: 25px;}
 
@@ -52,7 +56,8 @@ body {
    top: 70%;
    left: .5%;
    bottom: 103px;
-   right: 50%;   
+   right: 50%;
+   
    font-family: Tinos;
    font-size: 25px;}
 
