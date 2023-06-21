@@ -17,7 +17,7 @@ center {
     magin: auto;
     transform: translate(-50%, -50%);}
 
-bottom-center {
+.bottom-center {
    position: absolute;
    text-align: center;
    top: 50%;
@@ -26,7 +26,7 @@ bottom-center {
    font-family: Lora;
    font-size: 30px;}
 
-bottom-left {
+.bottom-left {
    position: absolute;
    text-align: center;
    top: 70%;
@@ -38,7 +38,7 @@ bottom-left {
 .button {
    background-color: #FFC300;}
 
-bottom-right {
+.bottom-right {
    position: absolute;
    text-align: center;
    top: 70%;
@@ -47,7 +47,7 @@ bottom-right {
    font-family: Tinos;
    font-size: 25px;}
 
-top-center {
+.top-center {
    position: relative;
    text-align: center;
    top: 70%;

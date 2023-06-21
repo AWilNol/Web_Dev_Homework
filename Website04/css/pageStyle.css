@@ -36,6 +36,10 @@ body {
    font-family: Encode Sans Condensed, sans-serif;  
    font-size: 1em;}
 
+.text {
+  background-color: #B0E0E6;
+}
+
 .navigation {
   background-color: #00BFFF;
   width: 265px;
@@ -107,7 +111,6 @@ body {
 .social-links a:hover {
   margin-right: 2px;
 }
-/* JUSTINE: Social Links disappear now on hover, what can I do? */
 
 /* Forms are courtesy the WWW as I forgot to save link page/s with info but they are not mine */
 
@@ -177,9 +180,20 @@ See the Pen: ttps://codepen.io/iGadget/pen/jOEQKNN
    background-color: #82a6cb;
    border-radius: 10px;
    padding: 0.25em;
-   cursor: zoom-in;
-}
- 
+  }
+
+/* Courtesy https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
+  .images:hover {
+    display: flex;
+    flex-grow: 0;
+  }
+
+  .images:active {
+    display: flex;
+    flex-grow: 2;
+  }
+
  img {
    object-fit: cover;
    width: 100%;
@@ -204,11 +218,11 @@ See the Pen: ttps://codepen.io/iGadget/pen/jOEQKNN
 }
 
 #gallery-container img:hover~img {
-  left: 0%;
+  left: 6%;
 }
 
 #gallery-container img:first-child:hover {
-  left:0%;
+  left:6%;
 }
 
 #gallery-container img:last-child:hover {

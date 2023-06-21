@@ -3,6 +3,9 @@
 @media (min-width: 360px) {
    .navigation {
        position: fixed;}
+   body {
+       margin: auto;}
+}
 
 .main {
   background-color: #B0E0E6;
@@ -25,18 +28,13 @@ h2 {
   color: black;}
 
 .banner {
-  margin: auto;}
+  width: auto;
+  height: 20%;}
 
 body {
-   margin: auto;
+   margin: 0;
    font-family: Encode Sans Condensed, sans-serif;  
    font-size: 1em;}
-
-/* Why is the text not starting at the nav panel? */
-
-p {
-  margin: 265px;
-}
 
 .navigation {
   background-color: #00BFFF;
@@ -58,9 +56,15 @@ p {
   font-size: 200%;}
 
 .logo {
+  background-color: white;
+  width: 150px;
+  height: 150px;
   margin: 0 auto .5em;
   border: 5px solid white;
-  border-radius: 100%;}
+  border-radius: 100%;
+  line-height: 150px;
+  color: black;
+  text-transform: uppercase;}
 
 .logo:hover {
   border-color: gray;}
@@ -75,15 +79,16 @@ p {
 .site-links a:hover {
   margin-left: 2em;}
 
-/* How am I rid of one of two galleries? Kicked the social links down. */
-
 .gallery {
+  background-color: gray;
   width: 150px;
-  height: 180px;
+  height: 200px;
   float: left;
   margin: 0 auto;
-  border: 2px solid white;
-}
+  border: 2px solid gray;
+  line-height: 200px;
+  color: gray;
+  text-transform: uppercase;}
 
 .gallery:hover {
   border-color: white;}
@@ -100,7 +105,7 @@ p {
   margin: 5px;}
 
 .social-links a:hover {
-  margin-left: 2px;
+  margin-right: 2px;
 }
 /* JUSTINE: Social Links disappear now on hover, what can I do? */
 
