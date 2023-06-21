@@ -4,9 +4,9 @@
    .navigation {
        position: fixed;}
    body {
-       margin: auto;}
+       margin: auto;
+   }
 }
-
 .main {
   background-color: #B0E0E6;
   overflow: auto;
@@ -105,11 +105,8 @@ body {
   margin: 5px;}
 
 .social-links a:hover {
-  margin-right: 2px;
+  margin-right: .5px;
 }
-/* JUSTINE: Social Links disappear now on hover, what can I do? */
-
-/* Forms are courtesy the WWW as I forgot to save link page/s with info but they are not mine */
 
 /* Dropdown Button */
 .dropbtn {
