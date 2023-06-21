@@ -9,6 +9,7 @@
 
 .main {
   background-color: #B0E0E6;
+  position: relative;
   overflow: auto;
   margin-top: 0;
   margin-left: 265px;
