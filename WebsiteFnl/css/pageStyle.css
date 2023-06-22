@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@300&family=Tinos&display=swap');
+
+@media (min-width: 360px) {
+   .navigation {
+       position: fixed;}
+   body {
+       margin: auto;}
+}
+
+.main {
+  background-color: #B0E0E6;
+  position: relative;
+  overflow: auto;
+  margin-top: 0;
+  margin-left: 265px;
+  padding: 1em;}
+
+h1 {
+  margin: 0;
+  background-color: #B0E0E6;
+  font-family: Tinos, serif;
+  color: black;
+  font-size: 2.8em;}
+
+h2 {
+  background-color: #B0E0E6;
+  font-family: Tinos, serif;
+  font-size: 1.8em;
+  color: black;}
+
+.banner {
+  width: 1000px;
+  height: 20%;}
+
+body {
+   margin: 0;
+   font-family: Encode Sans Condensed, sans-serif;  
+   font-size: 1em;}
+
+.text {
+  background-color: #B0E0E6;
+}
+
+.navigation {
+  background-color: #00BFFF;
+  width: 265px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+  text-align: center;}
+
+.site-info {
+  margin: 1em auto;
+  text-align: center;
+  font-size: 200%;}
+
+.logo {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto .5em;
+  border: 5px solid white;
+  border-radius: 100%;
+  line-height: 150px;
+  color: black;
+  text-transform: uppercase;}
+
+.logo:hover {
+  border-color: gray;}
+
+.site-links {
+  margin: 0 1em;}
+
+.site-links a {
+  display: block;
+  margin: 1em;}
+
+.site-links a:hover {
+  margin-left: 2em;}
+
+.gallery {
+  background-color: gray;
+  width: 150px;
+  height: 200px;
+  float: left;
+  margin: 0 auto;
+  border: 2px solid gray;
+}
+
+.gallery:hover {
+  border-color: white;}
+
+.social-links {
+  background-color: inherit;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  float: right;}
+
+.social-links a {
+  display: block;
+  margin: 5px;}
+
+.social-links a:hover {
+  margin-right: 2px;
+}
+
+/* Forms are courtesy the WWW as I forgot to save link page/s with info but they are not mine */
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 13px;
+  font-size: 13px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 25px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color:}
+
+
+#gallery-container {
+  margin: 200px auto;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /*background-color: #bdd8f1;*/
+}
+
+/*
+This gallery is credit to iGadget: https://codepen.io/iGadget
+See the Pen: ttps://codepen.io/iGadget/pen/jOEQKNN
+*/
+
+ .images {
+   display: grid;
+   grid-template-rows: 20vh;
+   grid-template-columns: repeat(13, 5vw);
+   transition: all 0.3s ease(gravity);
+   background-color: #82a6cb;
+   border-radius: 10px;
+   padding: 0.25em;
+  }
+
+/* Courtesy https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
+  .images:hover {
+    display: flex;
+    flex-grow: 0;
+  }
+
+  .images:active {
+    display: flex;
+    flex-grow: 2;
+  }
+
+ img {
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+   left: 0;
+   top: 0;
+   text-align: center;
+   transition: all 0.15s ease(downhill);
+   position: flex;
+   box-shadow: 0 0 0 #000 0;
+
+   /* APRIL TO JUSTINE: Thank you for all your help; appreciate you! */
+   /*opacity: 0.67;*/
+   /*filter: sepia(80%) hue-rotate(180deg);*/
+}
+
+ img:first-child {
+   border-radius: 10px 0 0 10px;
+}
+
+ img:last-child {
+   border-radius: 0 10px 10px 0;
+}
+
+#gallery-container img:hover~img {
+  left: 6%;
+}
+
+#gallery-container img:first-child:hover {
+  left:6%;
+}
+
+#gallery-container img:last-child:hover {
+  left: -400%;
+}
