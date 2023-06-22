@@ -199,8 +199,9 @@ See the Pen: ttps://codepen.io/iGadget/pen/jOEQKNN
    height: 100%;
    left: 0;
    top: 0;
+   text-align: center;
    transition: all 0.15s ease(downhill);
-   position: relative;
+   position: flex;
    box-shadow: 0 0 0 #000 0;
 
    /* APRIL TO JUSTINE: Thank you for all your help; appreciate you! */
