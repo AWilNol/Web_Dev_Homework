@@ -58,7 +58,7 @@ body {
   text-align: center;}
 
 .site-info {
-  margin: 1em auto;
+  margin: .3em auto;
   text-align: center;
   font-size: 200%;}
 
@@ -79,21 +79,23 @@ body {
 .site-links {
   margin: .5em 1em;
   font-family: Lora;
-  font-size: 18px;}
+  font-size: 19px;}
 
 .site-links a {
   display: block;
-  margin: 1.5em;}
+  margin: 0em;}
 
 .site-links a:hover {
-  margin-left: 2em;}
+  margin-left: 1em;
+  font-style: italics;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
 
 .gallery {
   background-color: gray;
   width: 150px;
   height: 200px;
   float: left;
-  margin: 0 auto;
+  margin: 3em auto;
   border: 2px solid gray;
 }
 
@@ -104,7 +106,7 @@ body {
   background-color: inherit;
   width: 40px;
   height: 40px;
-  margin: 5px;
+  margin: 3em auto;
   float: right;}
 
 .social-links a {
@@ -112,7 +114,7 @@ body {
   margin: 5px;}
 
 .social-links a:hover {
-  margin-right: 2px;
+  margin-left: 2em;
 }
 
 /* Forms are courtesy the WWW as I forgot to save link page/s with info but they are not mine */
@@ -162,7 +164,7 @@ body {
 
 
 #gallery-container {
-  margin: 200px auto;
+   margin: 200px auto;
    height: 100px;
    display: flex;
    justify-content: center;
@@ -222,13 +224,15 @@ See the Pen: ttps://codepen.io/iGadget/pen/jOEQKNN
 }
 
 #gallery-container img:hover~img {
-  left: 6%;
+  left: 1%;
+  width: 10%;
+  height: 10%;
 }
 
 #gallery-container img:first-child:hover {
-  left:6%;
+  left:1%;
 }
 
 #gallery-container img:last-child:hover {
-  left: -400%;
+  left: 1%;
 }
