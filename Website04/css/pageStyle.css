@@ -222,7 +222,7 @@ See the Pen: ttps://codepen.io/iGadget/pen/jOEQKNN
  img:last-child {
    border-radius: 0 10px 10px 0;
 }
-
+/*I am guessing this area controls size, but changes do not have desired effect/s.*/
 #gallery-container img:hover~img {
   left: 1%;
   width: 10%;
