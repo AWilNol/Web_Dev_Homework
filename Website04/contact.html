@@ -47,14 +47,14 @@
       <h2>Contact Us</h2>
      
        <div class="Contact">
-         <div class="form1" >
+         <form>
+           <fieldset>
+             <legend>Contact Information</legend>
           <form action="https://www.example.com/subscribe.php" method="post">
-          <p>Subscribe to our email list:</p>
+          <p style="text-align: center;">Subscribe to our email list:</p>
           <input type="text" name="email" /><a href="mailto:creativenceltic@gmail.com"></a>
           <input type="image" src="./images/subscribe-button.png" alt="subscribe button image" width="100" height="20" />
-          </form>
-         </div>
-
+          
          <div class="dropdown">
           <button class="dropbtn">VA or Zazzle Gear Links</button>
           <div class="dropdown-content">
@@ -62,32 +62,34 @@
             <a href="https://www.zazzle.com/store/creative_n_celtic">Zazzle Creative & Celtic</a>
           </div>
          </div>
-
-         <div id="video" class="container" style="float: right;"><iframe width="560" height="315" src="https://www.youtube.com/embed/MOWDb2TBYDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-
-         <div class="form" style="float: left;">
-          <label>Comment or Project: 
-          <input id="comment" type="radio" name="type" value="c">
+         <div>
+          <span class="title" style="float: left;">Comment or Project:</span> 
+          <input type="radio" name="type" id="comment" value="c" />
           <label for="comment">Comment</label> 
-          <input id="project" type="radio" name="type" value="p">
+          <input type="radio" name="type" id="project" value="p" />
           <label for="project">Project</label>
-          </label>
-        
-          <p>Enter Comments/ Project below:</p>            
+          </div>
+          <div>
+                    <p style="text-align: center;">Enter Comments/ Project below:</p>            
           <textarea cols="35" rows="5">
           Birthday coming up, let's discuss an 8" purpleheart bowl with wolf image inside.
           </textarea>
           <br>
-          <input type="button" value="Submit!"><a href="mailto:creativenceltic@gmail.com"></a> 
+          <input type="button" value="Submit!"><a href="mailto:creativenceltic@gmail.com"></a>
+        </div>
+          </fieldset>
+        </form>
+
+           <div id="video" class="container" style="float: left;"><iframe width="560" height="315" src="https://www.youtube.com/embed/MOWDb2TBYDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
          </div>     
         </div>   
             
       
         <div class="text">
-          <p>Whether for an occasion, or just because, we'd love to help you light up someone's day! Our email contact is <a href="mailto:creativenceltic@gmail.com" class="button4"> creativenceltic@gmail.com.</a></p> 
-          <p>As there is a waiting list, please allow plenty of time. We can let you know a more specific time frame upon contact.</p>
-
-          <p>This is an educational website for learning purposes. If you would like to contact me, please do so at<br> <a href="mailto:april.wilson-nolen@umontana.edu" class="button2">april.wilson-nolen@umontana.edu.</a> Thank you for stopping in!</p> 
+          <p style="text-align: center;">Whether for an occasion, or just because, we'd love to help you light up someone's day! Our email contact is <a href="mailto:creativenceltic@gmail.com" class="button4"> creativenceltic@gmail.com.</a></p> 
+          <p style="text-align: center;">As there is a waiting list, please allow plenty of time. We can let you know a more specific time frame upon contact.</p>
+          <p style="text-align: center;">This is an educational website for learning purposes. If you would like to contact me, please do so at <a href="mailto:april.wilson-nolen@umontana.edu" class="button2">april.wilson-nolen@umontana.edu.</a></p>
+          <p style="text-align: center;">Thank you for stopping in!</p> 
 
           <p>&#169;2023 Creative & Celtic</p>
         </div>

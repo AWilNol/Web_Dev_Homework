@@ -30,6 +30,31 @@ h2 {
   font-size: 1.8em;
   color: black;}
 
+fieldset {
+  width: 300px;
+  border : 1px solid #00BFFF;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: right;}
+
+legend {
+  background-color: #efefef;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: right;
+  font-family: Lora;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.video {
+  width: 500px;
+  height: 300px;
+  position: center;
+
+}
+
 .banner {
   width: 1000px;
   height: 20%;}
@@ -41,6 +66,8 @@ body {
 
 .text {
   background-color: #B0E0E6;
+  text-indent: 290px;
+  padding: 10px;
 }
 
 .navigation {
