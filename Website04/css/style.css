@@ -1,49 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@300&family=Lora&family=Tinos&display=swap');
 
 body {
-   width: 1300px;
-   height: 620px;
-}
+   width: 1315px;
+   height: 635px;
+   overflow: hidden;}
 
 .container {
    position: relative;
    text-alignment: center;
-   margin: 0;       
-}
+   overflow: hidden;}
 
 .centered {
   position: absolute;
   top: 30%;
   left: 50%;
   text-align: center;
-  transform: translate(-50%, -50%);
-}
+  transform: translate(-50%, -50%);}
 
 .bottom-center {
    position: absolute;
    text-align: center;
    top: 50%;
    left: 38.5%;
-   bottom: 80px;
-   
+   bottom: 80px;   
    font-family: Lora;
-   font-size: 35px;   
-}
+   font-size: 35px;}
 
 .social-links {
   background-color: inherit;
   width: 40px;
   height: 40px;
-  margin: 5px;
- }
+  margin: 5px;}
 
 .social-links a {
   display: block;
   margin: 5px;}
 
 .social-links a:hover {
-  margin-right: 2px;
-}
+  margin-right: 2px;}
 
 .right {
    position: relative;
@@ -51,8 +45,7 @@ body {
    top: 66%;
    left: 39%;
    bottom: 157px;
-   right: 85%;
-}
+   right: 85%;}
 
 .left {
    position: relative;
@@ -60,5 +53,4 @@ body {
    top: 68%;
    left: 39%;
    bottom: 156px;
-   right: 85%;
-}
+   right: 85%;}
