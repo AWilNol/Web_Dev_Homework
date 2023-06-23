@@ -10,7 +10,6 @@
 }
 
 .main {
-  background-color: #B0E0E6;
   position: relative;
   overflow: auto;
   margin-top: 0;
@@ -60,6 +59,7 @@ legend {
   height: 20%;}
 
 body {
+   background-color: #B0E0E6;
    margin: 0;
    font-family: Encode Sans Condensed, sans-serif;  
    font-size: 1em;}
@@ -89,13 +89,11 @@ body {
   text-align: center;
   font-size: 200%;}
 
-.logo {
-  background-color: white;
+.logo {  
   width: 150px;
   height: 150px;
   margin: 0 auto .5em;
-  border: 5px solid white;
-  border-radius: 100%;
+  border: 5px solid white;  
   line-height: 150px;
   color: black;
   text-transform: uppercase;}
